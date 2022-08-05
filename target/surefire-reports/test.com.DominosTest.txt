@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: test.com.DominosTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+test.com.DominosTest.testAddToCart()  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "test.com.DominosTest.driver" is null
+	at test.com.DominosTest.testAddToCart(DominosTest.java:57)
+
